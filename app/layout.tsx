@@ -19,7 +19,8 @@ const spaceGrotesk = localFont({
 export const metadata: Metadata = {
   title: "CodeOverFlow",
   description:
-    "CodeOverFlow lets you ask questions and get answers from other developers.",
+    "A community-driven platform for asking and answering programming questions. Get help, share knowledge, and collaborate with developers from around the world. Explore topics in web development, mobile app development, algorithms, data structures, and more.",
+  icons: "/images/logo-short.svg",
 };
 
 export default function RootLayout({
