@@ -1,5 +1,7 @@
 const Home = () => (
-  <h1 className="text-3xl font-black text-white">Welcome to CodeOverFlow</h1>
+  <h1 className="h1-bold background-light850_dark100 text-dark400_light800">
+    Welcome to CodeOverFlow
+  </h1>
 );
 
 export default Home;
