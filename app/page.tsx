@@ -1,6 +1,6 @@
 const Home = () => (
   <>
-    <h1 className="h1-bold font-space-grotesk">Welcome to CodeOverFlow</h1>
+    <h1 className="h1-bold">Welcome to CodeOverFlow</h1>
   </>
 );
 
