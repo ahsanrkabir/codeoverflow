@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import MobileNavigation from "@/components/navigation/navbar/MobileNavigation";
 import Theme from "@/components/navigation/navbar/Theme";
 import ROUTES from "@/constants/routes";
 
@@ -24,6 +25,8 @@ const Navbar = () => {
 
       <div className="flex-between gap-5">
         <Theme />
+
+        <MobileNavigation />
       </div>
     </nav>
   );
