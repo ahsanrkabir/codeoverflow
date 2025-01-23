@@ -51,7 +51,7 @@ const Editor = ({ value, editorRef, fieldChange, ...props }: Props) => {
       key={resolvedTheme}
       ref={editorRef}
       markdown={value}
-      className="background-light800_dark200 light-border-2 markdown-editor dark-editor w-full rounded-2 border"
+      className="background-light800_dark200 light-border-2 markdown-editor dark-editor grid w-full rounded-2 border"
       onChange={fieldChange}
       plugins={[
         headingsPlugin(),
