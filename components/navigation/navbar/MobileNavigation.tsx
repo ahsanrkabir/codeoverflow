@@ -21,7 +21,7 @@ const MobileNavigation = () => {
           alt="Menu"
           width={36}
           height={36}
-          className="invert-colors md:hidden"
+          className="invert-colors sm:hidden"
         />
       </SheetTrigger>
       <SheetContent side="left" className="border-none">
